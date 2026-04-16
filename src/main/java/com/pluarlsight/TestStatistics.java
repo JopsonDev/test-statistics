@@ -28,7 +28,6 @@ public class TestStatistics {
         int middle = scores.length / 2;
         if (scores.length % 2 == 0) {
             System.out.println(scores[middle]);
-            System.out.println(middle);
         } else {
             middle = (scores[middle] + scores[(middle - 1)]) / 2;
             System.out.println(middle);
